@@ -1,0 +1,27 @@
+{
+  "name": "ai-quiz-generator",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "test": "vitest run --passWithNoTests",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.22",
+    "@nuxt/ui": "^4.11.0",
+    "ai": "^7.0.40",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.40",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.125",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.10"
+  }
+}
